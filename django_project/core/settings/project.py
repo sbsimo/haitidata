@@ -6,7 +6,7 @@ from django.utils.translation import ugettext_lazy as _
 PROJECTION_DIRECTORY = '/tmp/'
 GEOSERVER_PUBLIC_LOCATION = os.environ.get(
     'GEOSERVER_PUBLIC_LOCATION',
-    os.environ.get('SITEURL') + 'api/geoserver/'
+    os.environ.get('SITEURL') + '/geoserver/'
 )
 
 # dynamic setting based on domain
